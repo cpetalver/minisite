@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.container {
+  margin-top: 10%;
+  width: 100%;
+  background-color: #C7EBCE;
+  overflow: auto;
+}
+.banner {
+  background-color: #7B83DB;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  height: 13%;
+}
+nav {
+  padding: 40px;
+  margin: 10px;
+}
+a:hover {
+  color:#4332B3;
+}
+.navLinks {
+  text-decoration: none;
+  box-sizing: border-box;
+  float: left;
+  color: #AEF1F2;
+  font-size: 40px;
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  width: 25%;
+}
+.bigPic {
+  width:100%;
+  margin-left: 10%;
+}
+.introText {
+  margin-bottom: 50px;
+  width: 85%;
+}
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  color: #363257;
+  font-size: 30px;
+}
+h1 {
+  font-size: 40px;
+  font-family: 'Abril Fatface', cursive;
+  color: #363257;
+}
+p , li {
+  font-size: 20px;
+  color: #5A5A5C;
+  font-family: 'Kanit', sans-serif;
+}
+.homepageList {
+  margin-left: 20%;
+}
+.list {
+  list-style-type: " ✰ ";
+  font-size: 30px;
+  margin-left: 20%;
+}
+.left {
+  float: left;
+  width: 45%;
+  margin: 2%;
+  padding: 2%;
+  /* background-color: blue; */
+}
+.right {
+  float: left;
+  width: 30%;
+  margin: 2%;
+  padding: 2%;
+  /* background-color: yellow; */
+}
+.gridImg {
+  width: 40%;
+  padding: 5px;
+  float: left;
+  box-sizing: border-box;
+  display: grid;
+}
+.aboutIndent {
+  text-indent: 50px;
+  width: 100%;
+}
+.portfolioHeader {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.portfolioGrid {
+  height: 33%;
+  margin: 10px;
+  background-color: #BED4A9;
+}
+.portImg {
+  width: 31%;
+  margin: 10px;
+}
+.navUL {
+  color: #7B83DB;
+  text-align: center;
+  font-size: 30px;
+}
+.links {
+  text-decoration: none;
+  color: #7B83DB;
+}
+.socialsIcons {
+  width: 50%;
+  margin: 2%;
+}
+.socialLinks {
+  width: 60%;
+  float: left;
+}
+.background {
+  background: url("../Images/background.gif");
+  margin-top: 10%;
+  width: 100%;
+  overflow: auto;
+}
